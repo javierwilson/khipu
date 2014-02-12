@@ -1,0 +1,5 @@
+Django
+django-compressor
+dj-database-url
+gunicorn
+django-blog-zinnia
