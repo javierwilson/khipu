@@ -1,5 +1,6 @@
-Django
 django-compressor
 dj-database-url
 gunicorn
 django-blog-zinnia
+South
+Django>=1.6

@@ -39,10 +39,13 @@ INSTALLED_APPS = (
 
     'django.contrib.sites',
     'django.contrib.comments',
+
+    'south',
     
     'tagging',
     'mptt',
     'zinnia',
+    'khipu',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -101,6 +104,9 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 SITE_ID = 1
+
+# Register our extended model EntryKhipu
+ZINNIA_ENTRY_BASE_MODEL = 'khipu.models.EntryKhipu'
 
 try:
     LOCAL_SETTINGS
